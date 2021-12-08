@@ -22,8 +22,3 @@ set(gcf,'Position',get(0,'Screensize'));
 subplot(1,2,1);imshow(k ,[]);title('Noise')
 subplot(1,2,2);imshow(Noisy_img,[]);title('Average Filter')
 
-%%
-%  array=[Noisy_img(i-1,j-1)*mask(1, 1) + Noisy_img(i-1,j)*mask(1, 2) + Noisy_img(i-1,j+1)*mask(1, 3)
-%                Noisy_img(i,j-1)*mask(2, 1) + Noisy_img(i,j)*mask(2, 2) + Noisy_img(i,j+1)*mask(2, 3)
-%                Noisy_img(i+1,j-1)*mask(3, 1)+Noisy_img(i+1,j)*mask(3, 2)+Noisy_img(i+1,j+1)*mask(3, 3)];
-
